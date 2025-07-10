@@ -4,6 +4,7 @@ This repository contains a small utility script for scanning a directory and
 extracting any `host` or `sni` parameters found inside the files. The script
 prints each value it finds and also stores them in a text file using UTF-8
 encoding so that special characters are preserved across platforms.
+It also detects `vmess://` links and decodes them to extract host or sni values.
 
 ### Usage
 
